@@ -1,5 +1,8 @@
 {
  "name": "A. Poloz Resume",
+ "short_name" : "APolozResume",
+ "description" : "Full-Stack Web Developer - PHP, JS, Python",
+ "start_url" : "/",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
