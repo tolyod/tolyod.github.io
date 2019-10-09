@@ -77,28 +77,29 @@
     }
   </script>
 </head>
-<body>
-      <div id="header" itemscope itemtype="http://schema.org/Person">
+<body itemscope itemtype="http://schema.org/Person">
+      <div id="header" >
         <div class="logo">
           <meta itemprop="name" content="Anatoliy Poloz">
-          <img src="./images/logo.svg" />
+          <meta itemprop="gender" content="http://schema.org/Male">
+          <img src="./images/logo.svg" itemprop="image" alt="logo of Anatoliy Poloz" />
         </div>
         <h1 itemprop="jobTitle">Full-Stack Web Developer</h1>
         <p>
             <a itemprop="email"  target="_blank" rel="noopener" href="mailto:anatoliy.poloz@gmail.com">anatoliy.poloz@gmail.com</a>
             <a itemprop="url"  target="_blank" rel="noopener" href="https://github.com/tolyod">tolyod@github</a>
-                    </p>
+        </p>
     </div>
-    <div id="main">
+    <div id="main" itemprop="description">
         <p>Увлекаюсь Веб разработкой:</p>
-        <ul>
+        <ul itemprop="knowsAbout">
             <li>PHP</li>
             <li>Python</li>
             <li>js/JQuery/React</li>
             <li>автоматизацией конфигурации *nix</li>
         </ul>
         <p>умею работать с:</p>
-        <ul>
+        <ul itemprop="knowsAbout">
             <li>Linux/FreeBSD</li>
             <li>SQL</li>
             <li>HTTP</li>
@@ -198,7 +199,10 @@
         </ul>
 
         <h2>Образование</h2>
-        <h3>Одесская национальная академия связи им А. Попова</h3>
+        <h3 itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+          <meta itemprop="name" content="Одесская национальная академия связи им А. Попова">
+          Одесская национальная академия связи им А. Попова
+        </h3>
         <p>баколавр инженер сетей многоканальной электросвязи, 2002-2006</p>
 
         <h2>Другие навыки и увлечения</h2>
