@@ -79,4 +79,6 @@
 |У. Шекспир - **"Усмирение строптивой"**. Перевод Каншина. | 07.03.2016 |
 |Г. Линьков - **"Война в тылу врага"**. | 04.03.2016 |
 
- [shakespeare.club](https://russian-shakespeare.club/)
+
+[![shakespeare club member](images/V_Shakespeare.png)](https://russian-shakespeare.club/)
+
